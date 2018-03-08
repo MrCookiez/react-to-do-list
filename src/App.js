@@ -33,14 +33,7 @@ class App extends Component {
         noteContent: snap.val().noteContent,
       })
 
-      //REVERSE
-      let i=previousNotes.length;
-      while (i>=0){
-        console.log(previousNotes[i]);
-        i--;
-      }
-
-      this.setState({
+        this.setState({
         notes: previousNotes
       })
 
@@ -59,9 +52,9 @@ class App extends Component {
   }
 
   addNote(note){
-  //  if(note != '') {
+    if(note != '') {
       this.database.push().set({ noteContent: note});
-  //  }    
+    }    
   }
   
 
