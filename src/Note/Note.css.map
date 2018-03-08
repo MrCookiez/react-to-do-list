@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAa;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;;AAEpB,IAAI;EACH,KAAK,EAAE,GAAG",
+"sources": ["Note.sass"],
+"names": [],
+"file": "Note.css"
+}
