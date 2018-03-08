@@ -1,5 +1,5 @@
 
-export const config = {
+export const DB_CONFIG = {
     apiKey: "Your API KEY",
     authDomain: "react-notes-c4f1a.firebaseapp.com",
     databaseURL: "https://react-notes-c4f1a.firebaseio.com",
