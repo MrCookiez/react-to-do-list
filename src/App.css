@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Shojumaru');
+
+body {
+  background:#fcf8e3;
+  max-heigt: 80vh;
+  padding-bottom: 150px;
+}
+.title {
+  font-family: Shojumaru;
+}
+/**/
+.note {
+  font-family: 'Shojumaru', cursive;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 34px;
+}
+.notes {
+  position: relative;
+}
+
+span.btn {
+  z-index: 2;
+  position: absolute;
+  color: #ababab;
+  width: auto;
+  top: 5px;
+  right: 20px;
+  background: linear-gradient(to bottom,#fcf8e3 0,#f8efc0 100%);
+  border:none;
+}
+
+span.btn:hover {
+  background-image: -webkit-linear-gradient(top,#d9534f 0,#c12e2a 100%);
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 80px;
+}
+.App-logo2 {
+  padding: 20px;
+}
+.App-header {
+  background-color: #222;
+  height: 250px;
+  padding: 20px;
+  color: white;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  z-index: 3;
+  }
